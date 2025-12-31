@@ -56,13 +56,9 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 | **Before: The Stale Board** | **After: Automated Updates** |
 | :---: | :---: |
 | *Original state of Jira Epic.*<br><img width="1222" height="768" alt="Screenshot 2025-12-29 at 2 24 19 PM" src="https://github.com/user-attachments/assets/c6fd00cd-8ed1-4d0b-837b-af10d1d5649e" width="100%"> | *New Task Created.*<br><img width="1221" height="766" alt="Screenshot 2025-12-29 at 2 22 07 PM" src="https://github.com/user-attachments/assets/42a33eff-e7cd-442a-9201-b0ab3f5bea19" width="100%"> |
-
 | *Original state of Jira Task.*<br><img width="1221" height="768" alt="Screenshot 2025-12-29 at 2 16 29 PM" src="https://github.com/user-attachments/assets/e20a99c4-fdb7-4027-baf4-1e7f0dc01c09" width="100%"> | *New Task Created.*<br><img width="1223" height="768" alt="Screenshot 2025-12-29 at 2 26 28 PM" src="https://github.com/user-attachments/assets/6d808693-f38c-4139-9ebf-b68a9af0a86c" width="100%"> |
-
 | *Original state of Jira Task.*<br><img width="1223" height="768" alt="Screenshot 2025-12-29 at 2 16 16 PM" src="https://github.com/user-attachments/assets/e5981837-b9f6-4699-8a0d-fc0a4931802f" width="100%"> | *New Task Created.*<br><img width="1221" height="768" alt="Screenshot 2025-12-29 at 2 26 17 PM" src="https://github.com/user-attachments/assets/8bbd1fd1-1f7a-4d94-b839-372773f80658" width="100%"> |
-
 | *Original state of Jira Epic.*<br><img width="1222" height="768" alt="Screenshot 2025-12-29 at 2 24 19 PM" src="https://github.com/user-attachments/assets/c6fd00cd-8ed1-4d0b-837b-af10d1d5649e" width="100%"> | *New Task Created.*<br><img width="1221" height="766" alt="Screenshot 2025-12-29 at 2 22 07 PM" src="https://github.com/user-attachments/assets/42a33eff-e7cd-442a-9201-b0ab3f5bea19" width="100%"> |
-
 | *Original state of Jira Epic.*<br><img width="1222" height="768" alt="Screenshot 2025-12-29 at 2 24 19 PM" src="https://github.com/user-attachments/assets/c6fd00cd-8ed1-4d0b-837b-af10d1d5649e" width="100%"> | *New Task Created.*<br><img width="1221" height="766" alt="Screenshot 2025-12-29 at 2 22 07 PM" src="https://github.com/user-attachments/assets/42a33eff-e7cd-442a-9201-b0ab3f5bea19" width="100%"> |
 
 ---
