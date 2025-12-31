@@ -55,7 +55,7 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 
 | **Before: The Stale Board** | **After: Automated Updates** |
 | :---: | :---: |
-| *Original state of the tickets.*<br><img width="1222" height="768" alt="Screenshot 2025-12-29 at 2 24 19 PM" src="https://github.com/user-attachments/assets/c6fd00cd-8ed1-4d0b-837b-af10d1d5649e" width="100%"> | *Tickets moved, commented on, and prioritized.*<br><img width="1221" height="766" alt="Screenshot 2025-12-29 at 2 22 07 PM" src="https://github.com/user-attachments/assets/42a33eff-e7cd-442a-9201-b0ab3f5bea19" width="100%"> |
+| *Original state of Jira Epic.*<br><img width="1222" height="768" alt="Screenshot 2025-12-29 at 2 24 19 PM" src="https://github.com/user-attachments/assets/c6fd00cd-8ed1-4d0b-837b-af10d1d5649e" width="100%"> | *New Task Created.*<br><img width="1221" height="766" alt="Screenshot 2025-12-29 at 2 22 07 PM" src="https://github.com/user-attachments/assets/42a33eff-e7cd-442a-9201-b0ab3f5bea19" width="100%"> |
 
 ---
 
