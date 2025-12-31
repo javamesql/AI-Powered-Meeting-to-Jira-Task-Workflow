@@ -110,10 +110,3 @@ As part of this project, I treated the development process as a formal Agile spr
 
 ---
 
-## 📬 Contact
-
-**James Doan**
-<br>
-*Aspiring Technical Program Manager | San Jose State University*
-<br>
-[LinkedIn](https://linkedin.com/in/yourprofile) | [Email](mailto:youremail@example.com)
