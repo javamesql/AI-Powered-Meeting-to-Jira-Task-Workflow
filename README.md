@@ -32,8 +32,8 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 
 ## 📸 Workflow & Visuals
 
-### 1. The Process (Terminal Execution)
-*The script processing the audio file and establishing a connection with the Jira API.*
+### 1. Jira Activity
+*Showcase of automated activity through Jira API on account.*
 
 <div align="center">
   <img src="assets/terminal_loading.png" width="100%" alt="Terminal Processing">
@@ -41,8 +41,8 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 
 <br>
 
-### 2. The "Human Approval" Gate
-*Before any data touches the Jira database, the Agent presents a "Proposed Change Plan." I designed this safety layer to prevent AI hallucinations from corrupting project data.*
+### 2. The Final Approval Layer
+*Before any data touches the Jira project, the tool presents a "Proposed Change Plan." I designed this safety layer to prevent AI hallucinations from corrupting project data.*
 
 <div align="center">
   <img src="assets/terminal_approval.png" width="90%" alt="Approval Interface">
@@ -86,9 +86,24 @@ This is not a chatbot; it is a sequential data processing pipeline built in Pyth
 
 ---
 
-## 🧠 Engineering Challenge: "Hard Mode" Testing
+## 🧠 Meeting Audio Testing
 
-To prove this tool adds real value, I tested it against a "Hard Mode" script containing vague language and implied tasks.
+**To prove this tool adds real value, I tested it against a challenging script containing vague language and implied tasks.**
+
+**Script**:
+
+“Happy Monday everyone and happy holidays, looking forward to going to Tahoe this year haha.
+
+Alright, let’s get into it. Uh, hope everyone survived the weekend.
+
+So, looking at the board... I want to touch on that email integration piece first. We found out SendGrid is actually too expensive for the volume we're hitting–so we’re gonna pivot to AWS SES instead. Actually, can someone just update that card to mention we need to provision new IAM users? We really can't move forward without those keys.
+
+Also, I noticed that the Confluence page is still blank regarding the key rotation. We promised the Security team we’d have that written down by Friday. It's not a huge deal, but let's try to get a draft in there soon so they get off our backs.
+
+But the real issue that I’d like to address is the Slack alerts. We had a failure last night and the bot didn't say a word. We are literally flying blind right now. If the system goes down, we won't know. We need to treat that as a fire drill—honestly, that’s the most critical thing on the board right now. Let's make sure that gets picked up today.
+
+Oh, and one last thing—Marketing is asking for a frontend. They don't want to query the database manually. We need to build a simple UI, maybe in Streamlit, just so they can see the open rates. Let's get a ticket created for that.”
+
 
 | **Challenge Category** | **Spoken Phrase (Input)** | **AI Logic & Result** |
 | :--- | :--- | :--- |
