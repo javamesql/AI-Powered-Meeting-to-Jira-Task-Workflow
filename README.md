@@ -26,7 +26,7 @@ As a PM, I want to automate the translation of verbal meeting decisions into str
 Throughout my early experience in corporate, I've noticed that valuable context is sometimes lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow and prone to error. 
 
 **The Solution:**
-I engineered a **PM Agent AI Pipeline** that transforms unstructured audio files into actionable Jira updates. Unlike basic transcription tools, this project uses a Large Language Model as a reasoning engine to:
+I created a **PM Agent AI Pipeline** that transforms unstructured audio files into actionable Jira updates. Unlike basic transcription tools, this project uses a Large Language Model as a reasoning engine to:
 1.  **Check Context:** Reads the live Jira board first to avoid creating duplicates.
 2.  **Determine Priority:** Detects urgency in speech (e.g., "fire drill") to assign priority levels automatically.
 3.  **Structure Data:** Formats the output into a JSON payload for the Jira API.
@@ -131,7 +131,7 @@ As part of this project, I treated the development process as a formal Agile spr
 * **Agile Hierarchy:** Enforces Epic/Task parent-child relationships automatically.
 
 ### Next Steps
-* Improve interface, instead of a terminal.
+* Built a frontend interface, instead of a terminal.
 * Allow for editing of task/epic descriptions directly, instead of comments.
 * Continue experimenting AI Agent prompt, improving accuracy.
 * Not only comment actions from a meeting but from which meeting? Time stamps?
