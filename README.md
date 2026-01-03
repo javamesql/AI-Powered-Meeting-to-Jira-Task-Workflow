@@ -19,6 +19,9 @@
 
 ## 📖 Project Overview
 
+**User Story:**
+As a PM, I want to automate the translation of verbal meeting decisions into structured Jira tasks/updates, so that I can prioritize active listening and critical thinking over administrative data entry.
+
 **The Problem:**
 Throughout my early experience in corporate, I've noticed that valuable context is sometimes lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow and prone to error. Some work-arounds have been:
 
