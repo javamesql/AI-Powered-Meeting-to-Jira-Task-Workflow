@@ -119,10 +119,10 @@ Oh, and one last thing—Marketing is asking for a frontend. They don't want to 
 
 ## 📑 Project Management Artifacts
 
-As part of this project, I treated the development process as a formal Agile sprint.
+As part of this project, I treated the development process as a formal Agile sprint. This ended up being one of the best decisions I made. There were roadblocks along the way in which I had to rewrite expectations for features, and even removed some features to end up with this MVP.
 
 ### Product Charter
-* **Vision:** To eliminate the "administrative tax" of technical program management.
+* **Vision:** To eliminate the "administrative tax" of program/project/product management.
 * **Core Objective:** Deploy a semantic analysis tool that reduces ticket entry time by 90%.
 
 ### Retrospective (Implemented Features)
