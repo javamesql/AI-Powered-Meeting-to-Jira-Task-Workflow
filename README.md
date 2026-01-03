@@ -36,7 +36,7 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 *Showcase of automated activity through Jira API on account.*
 
 <div align="center">
-  <img src="assets/terminal_loading.png" width="100%" alt="Terminal Processing">
+  <img width="440" height="550" alt="Screenshot 2025-12-29 at 2 23 16 PM" src="https://github.com/user-attachments/assets/d2bb7e0e-5df6-4b4d-a666-7527e3d6f43e" width="100%" alt="Terminal Processing">
 </div>
 
 <br>
@@ -45,7 +45,7 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 *Before any data touches the Jira project, the tool presents a "Proposed Change Plan." I designed this safety layer to prevent AI hallucinations from corrupting project data.*
 
 <div align="center">
-  <img src="assets/terminal_approval.png" width="90%" alt="Approval Interface">
+  <img width="450" height="440" alt="Screenshot 2025-12-29 at 2 19 10 PM" src="https://github.com/user-attachments/assets/af563e69-d6da-49d8-ac4f-f23d9c74bab0" width="90%" alt="Approval Interface">
 </div>
 
 <br>
