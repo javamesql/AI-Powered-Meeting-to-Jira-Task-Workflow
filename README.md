@@ -5,7 +5,7 @@
   </h1>
 
   <p style="font-size: 1.2rem; margin-bottom: 20px;">
-    <i>A Python automation workflow that ingests meeting audio, understands context via GPT-4o, and executes structured updates to Jira.</i>
+    <i>A Python automation workflow that ingests meeting audio via Whisper, understands context via GPT-4o, and executes structured updates to Jira.</i>
   </p>
 
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -19,14 +19,18 @@
 
 ## 📖 Project Overview
 
-**The Challenge:**
-In technical program management, valuable context is often lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow, prone to error, and often results in vague ticket descriptions.
+**The Problem:**
+Throughout my early experience in corporate, I've noticed that valuable context is sometimes lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow and prone to error. Some work-arounds have been:
+
+1. Obtaining the meeting transcript, inputting into LLM, then manually create new tasks and updates based on results. It's a viable option but still quite manual.
+2. Writing down new Jira tasks and updates while in the meeting. Also a viable option, this does save time but, not writing items down during a meeting allows for more space for critical-thinking.
 
 **The Solution:**
-I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured audio files into strict, actionable Jira updates. Unlike basic transcription tools, this project uses an LLM (Large Language Model) as a reasoning engine to:
+I engineered a **PM Agent AI Pipeline** that transforms unstructured audio files into actionable Jira updates. Unlike basic transcription tools, this project uses a Large Language Model as a reasoning engine to:
 1.  **Check Context:** Reads the live Jira board first to avoid creating duplicates.
-2.  **Infer Priority:** Detects urgency in speech (e.g., "fire drill") to assign priority levels automatically.
+2.  **Determine Priority:** Detects urgency in speech (e.g., "fire drill") to assign priority levels automatically.
 3.  **Structure Data:** Formats the output into a JSON payload for the Jira API.
+4.  **Present:** Showcases incoming Jira changes in Terminal, to be approved by User.
 
 ---
 
