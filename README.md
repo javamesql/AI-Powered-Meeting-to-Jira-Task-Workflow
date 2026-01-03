@@ -76,7 +76,7 @@ This is not a chatbot; it is a sequential data processing pipeline built in Pyth
 
 **2. Audio Transcribing (`transcribe_audio`)**
 * **Tech:** OpenAI Whisper-1 Model.
-* **Function:** Converts the `.mp4` or `.mp3` meeting recording into high-fidelity text.
+* **Function:** Converts the `.mp4` or `.mp3` meeting recording into high-accuracy text.
 
 **3. The Reasoning Engine (`run_jira_agent`)**
 * **Tech:** GPT-4o with `response_format={"type": "json_object"}`.
