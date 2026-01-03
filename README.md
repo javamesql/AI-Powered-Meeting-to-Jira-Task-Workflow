@@ -126,9 +126,16 @@ As part of this project, I treated the development process as a formal Agile spr
 * **Core Objective:** Deploy a semantic analysis tool that reduces ticket entry time by 90%.
 
 ### Retrospective (Implemented Features)
-* ✅ **Semantic Duplicate Detection:** Prevents board clutter.
-* ✅ **Secure Authentication:** Uses `.env` for API key management.
-* ✅ **Agile Hierarchy:** Enforces Epic/Task parent-child relationships automatically.
+* **Semantic Duplicate Detection:** Prevents board clutter.
+* **Secure Authentication:** Uses `.env` for API key management.
+* **Agile Hierarchy:** Enforces Epic/Task parent-child relationships automatically.
+
+### Next Steps
+* Improve interface, instead of a terminal.
+* Allow for editing of task/epic descriptions directly, instead of comments.
+* Continue experimenting AI Agent prompt, improving accuracy.
+* Not only comment actions from a meeting but from which meeting? Time stamps?
+
 
 ---
 
