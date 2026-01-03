@@ -23,10 +23,7 @@
 As a PM, I want to automate the translation of verbal meeting decisions into structured Jira tasks/updates, so that I can prioritize active listening and critical thinking over administrative data entry.
 
 **The Problem:**
-Throughout my early experience in corporate, I've noticed that valuable context is sometimes lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow and prone to error. Some work-arounds have been:
-
-1. Obtaining the meeting transcript, inputting into LLM, then manually create new tasks and updates based on results. It's a viable option but still quite manual.
-2. Writing down new Jira tasks and updates while in the meeting. Also a viable option, this does save time but, not writing items down during a meeting allows for more space for critical-thinking.
+Throughout my early experience in corporate, I've noticed that valuable context is sometimes lost between verbal meeting discussions and written Jira tickets. Manually updating backlogs is slow and prone to error. 
 
 **The Solution:**
 I engineered a **PM Agent AI Pipeline** that transforms unstructured audio files into actionable Jira updates. Unlike basic transcription tools, this project uses a Large Language Model as a reasoning engine to:
