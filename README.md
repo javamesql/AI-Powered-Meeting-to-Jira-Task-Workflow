@@ -51,7 +51,7 @@ I engineered a **"Human-in-the-Loop" AI Pipeline** that transforms unstructured 
 <br>
 
 ### 3. Jira Impact (Before vs. After)
-*Demonstrating the Agent's ability to update existing tickets and create new ones based on a single meeting.*
+*Demonstrating the Agent's ability to update existing tickets and create new ones based on a single meeting recording.*
 
 | **Before: The Stale Board** | **After: Automated Updates** |
 | :---: | :---: |
