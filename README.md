@@ -68,7 +68,7 @@ I created a **PM Agent AI Pipeline** that transforms unstructured audio files in
 
 ## 🛠️ System Architecture
 
-This is not a chatbot; it is a sequential data processing pipeline built in Python.
+Using Gemini 3 Pro
 
 **1. Context Ingestion (`get_project_context`)**
 * **Logic:** Before listening to the audio, the script queries the Jira REST API using JQL (`status != Done`).
