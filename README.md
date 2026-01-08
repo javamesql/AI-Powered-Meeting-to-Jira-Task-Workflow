@@ -68,7 +68,7 @@ I created a **PM Agent AI Pipeline** that transforms unstructured audio files in
 
 ## 🛠️ System Architecture
 
-Using Gemini 3 Pro
+Using Gemini 3 Pro:
 
 **1. Context Ingestion (`get_project_context`)**
 * **Logic:** Before listening to the audio, the script queries the Jira REST API using JQL (`status != Done`).
